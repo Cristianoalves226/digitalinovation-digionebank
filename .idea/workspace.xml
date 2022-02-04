@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59838a1c-89e4-4415-ba29-c2a71bcb2b11" name="Changes" comment="Criação de Objeto">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Banco.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TesteBanco.kt" afterDir="false" />
+    <list default="true" id="59838a1c-89e4-4415-ba29-c2a71bcb2b11" name="Changes" comment="Conceito de enum kotlin">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/ClienteTypo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TesteEnum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/Banco.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/ClienteTypo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/Conta.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/teste/TesteBancoKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/teste/TesteEnumKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Pessoa.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/digionebank.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/digionebank.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/PessoaKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +25,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +73,7 @@
       <recent name="me.digitalinovation.digionebank" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TesteBancoKt">
+  <component name="RunManager" selected="Kotlin.TesteEnumKt">
     <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.digitalinovation.digionebank.PessoaKt" />
       <module name="digionebank" />
@@ -70,6 +83,13 @@
     </configuration>
     <configuration name="TesteBancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.digitalinovation.digionebank.teste.TesteBancoKt" />
+      <module name="digionebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.digitalinovation.digionebank.teste.TesteEnumKt" />
       <module name="digionebank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteEnumKt" />
         <item itemvalue="Kotlin.TesteBancoKt" />
         <item itemvalue="Kotlin.PessoaKt" />
       </list>
@@ -116,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644010525375</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Conceito de data class">
+      <created>1644013092956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644013092956</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conceito de menbros de classe" />
     <MESSAGE value="Criação de Objeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação de Objeto" />
+    <MESSAGE value="Conceito de data class" />
+    <MESSAGE value="Conceito de enum kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conceito de enum kotlin" />
   </component>
 </project>
