@@ -15,6 +15,5 @@ class Pessoa {
 fun main() {
     val cristiano = Pessoa()
     println(cristiano.nomeAndCpf())
-    println(cristiano.nome)
-    println(cristiano.cpf)
+
 }
