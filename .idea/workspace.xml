@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59838a1c-89e4-4415-ba29-c2a71bcb2b11" name="Changes" comment="Conceito de menbros de classe">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" afterDir="false" />
+    <list default="true" id="59838a1c-89e4-4415-ba29-c2a71bcb2b11" name="Changes" comment="Criação de Objeto">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Banco.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TesteBanco.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Conta.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/digionebank.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/digionebank.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/PessoaKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="24ev8q5vGgGhOp4P0X1wViEKg4D" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,11 +50,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="me.digitalinovation.digionebank" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.TesteBancoKt">
     <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.digitalinovation.digionebank.PessoaKt" />
+      <module name="digionebank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteBancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.digitalinovation.digionebank.teste.TesteBancoKt" />
       <module name="digionebank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteBancoKt" />
         <item itemvalue="Kotlin.PessoaKt" />
       </list>
     </recent_temporary>
@@ -87,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644009666569</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criação de Objeto">
+      <created>1644010525375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644010525375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conceito de menbros de classe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conceito de menbros de classe" />
+    <MESSAGE value="Criação de Objeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de Objeto" />
   </component>
 </project>

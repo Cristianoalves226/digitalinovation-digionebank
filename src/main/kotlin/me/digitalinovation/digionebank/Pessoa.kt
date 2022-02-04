@@ -12,8 +12,8 @@ class Pessoa {
 
 }
 
-fun main() {
-    val cristiano = Pessoa()
-    println(cristiano.nomeAndCpf())
-
-}
+//fun main() {
+//    val cristiano = Pessoa()
+//    println(cristiano.nomeAndCpf())
+//
+//}
