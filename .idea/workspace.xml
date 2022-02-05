@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59838a1c-89e4-4415-ba29-c2a71bcb2b11" name="Changes" comment="Conceito de abstract kotlin">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Analista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Gerente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/ImprimeRelatorioFuncionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Logavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TesteAutenticacao.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/Gerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TesteFuncionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TesteFuncionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TestePessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/me/digitalinovation/digionebank/teste/TestePessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/digionebank.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/digionebank.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/digitalinovation/digionebank/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/digionebank.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644071442255</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Conceito de abstract kotlin">
+      <created>1644078609766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644078609766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
